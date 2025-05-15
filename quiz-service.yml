@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/quizmsdb
+    username: root
+    password: root
+  application:
+    name: quiz-service
